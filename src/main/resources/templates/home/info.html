@@ -4,7 +4,16 @@
 </head>
 
 <body>
-<h1 align="center"> My first view </h1>
+<h1 align="center"> My first view : info </h1>
+<h3 th:text="${workshop}"></h3>
+
+<h3>Affichage de la liste :</h3>
+<ul >
+	<li th:each="list : ${list}" th:text="${list}"></li>
+</ul>
+
+
+
 </body>
 
 
