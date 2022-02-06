@@ -11,6 +11,7 @@ public class HomeController {
 	@RequestMapping("/info") //ce que je tape dans url
 	public String info( )
 	{
+		System.out.println("affiche info");
 		return "home/info";
 	}
 	
